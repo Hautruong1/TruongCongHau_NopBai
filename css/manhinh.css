@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #86C6E6;
+    font-family: Arial, sans-serif;
+}
+ .container{
+        width: 100%;
+        min-height: 100vh;
+        font-size: 30px;
+ }
+ .phandau{
+     background-color: #D9D9D9;
+    height: 130px;
+    width: 100% ;   
+    font-size: 50px; 
+    padding-left: 20px;
+ }
+.ten{
+    display: flex;
+    font-size: 20px;
+    padding-left: 50px;
+    justify-content: space-around;
+    padding-top: 25px;
+}
+.phangiua img{
+    width: 220px;
+    margin: 130px;
+    border-radius: 20px;
+}
+.gia {
+    display: flex;
+    justify-content: space-between;   
+    padding: 40px;
+    margin-left: 170px;
+    margin-top: -100px;           
+}
+
+.item {
+    width: 30%;                     
+    text-align: left;
+    font-family: Arial, sans-serif;
+}
+
+.item h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.item p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+
+.item .tien {
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+}
+footer {
+    background: #f3f3f3;
+    padding: 30px 10px;
+    font-size: 14px;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.footer-section h4 {
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-section li {
+    margin-bottom: 5px;
+}
+
+.socials img {
+    width: 25px;
+    margin-right: 10px;
+}
